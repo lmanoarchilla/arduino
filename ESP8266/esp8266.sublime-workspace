@@ -1,0 +1,443 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pin",
+				"pinMode"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "WebBlink/WebBlink.ino",
+			"settings":
+			{
+				"buffer_size": 2249,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "{\n\t\"folders\":\n\t[\n\t\t{\n\t\t\t\"path\": \".\"\n\t\t}\n\t]\n}\n",
+			"file": "esp8266.sublime-project",
+			"file_size": 45,
+			"file_write_time": 131824203904732151,
+			"settings":
+			{
+				"buffer_size": 45,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "webBlink2/webBlink2.ino",
+			"settings":
+			{
+				"buffer_size": 2396,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "coche_sonar/coche_sonar.ino",
+			"settings":
+			{
+				"buffer_size": 2949,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "#include <ESP8266WiFi.h>\n\nvoid setup() {\n    Serial.begin(115200);\n    WiFi.mode(WIFI_STA);\n    WiFi.disconnect();\n    delay(100);\n    Serial.println(\"setup completado\");\n     Serial.println(\"Comienza la busqueda de redes WiFi\");\n     int n = WiFi.scanNetworks();\n     Serial.println(\"Busqueda realizada\");\n     if (n == 0)\n        Serial.print(\"Redes no encontradas\");\n     else {\n        for (int i = 0; i < n; i++) {\n         //Muestra los datos de las redes encontradas\n         Serial.print(i+1);\n         Serial.print(\": \");\n         Serial.print(WiFi.SSID(i));\n         Serial.print(\" (\");\n         Serial.print(WiFi.RSSI(i));\n         Serial.println(\")\");\n         delay(10);\n        }\n     }\n\n}\n\nvoid loop() {\n  // put your main code here, to run repeatedly:\n\n}\n",
+			"file": "Scan/Scan.ino",
+			"file_size": 682,
+			"file_write_time": 131987643990281636,
+			"settings":
+			{
+				"buffer_size": 771,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 150.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/home/lab/Arduino/i2cScanner/i2cScanner.ino",
+		"/home/lab/Arduino/basicos/interrupciones/interrupciones.ino",
+		"/home/lab/githubProjects/arduino/ESP8266/pruebaWifi2/pruebaWifi2.ino",
+		"/home/lab/githubProjects/arduino/ESP8266/pruebaWifi1/pruebawifi1.ino",
+		"/home/lab/githubProjects/arduino/ESP8266/web1/web1.ino",
+		"/home/lab/Arduino/basicos/potenciometro/potenciometro.ino",
+		"/home/lab/Arduino/basicos/led_trans/led_trans.ino",
+		"/home/lab/Arduino/basicos/ldr3/ldr3.ino",
+		"/home/lab/Arduino/basicos/ldr2/ldr2.ino",
+		"/home/lab/Arduino/basicos/lampara_transicion/lampara_transición.ino",
+		"/home/lab/Arduino/libraries/Morse/readme.rd",
+		"/home/lab/Arduino/Morse/Morse.h",
+		"/home/lab/Arduino/Morse/keywords.txt",
+		"/home/lab/Arduino/ATtiny85/readme.rd",
+		"/home/lab/Arduino/basicos/lampara_pulsador/lampara_pulsador.ino",
+		"/home/lab/Arduino/basicos/ldr1/ldr1.ino",
+		"/home/lab/Arduino/basicos/pruebaserial/pruebaSerial.ino",
+		"/home/lab/Arduino/Morse/ejemplos/telegrafo.ino",
+		"/home/lab/Arduino/basicos/rgb_led/rgb_led.ino",
+		"/home/lab/Arduino/libraries/Morse/Morse.cpp",
+		"/home/lab/Arduino/libraries/Morse/Morse.h",
+		"/home/lab/Arduino/libraries/Morse/keywords.txt",
+		"/home/lab/Arduino/libraries/MFRC522/keywords.txt",
+		"/home/lab/Arduino/Display_OLED_I2C_SSD1306_Adafruit/Display_OLED_I2C_SSD1306_Adafruit.ino",
+		"/home/lab/Arduino/libraries/morse",
+		"/home/lab/Arduino/libraries/Adafruit_SSD1306/Adafruit_SSD1306.h",
+		"/home/lab/Descargas/Display_OLED_SPI_SSD1306_Adafruit.ino",
+		"/home/lab/Descargas/Display_OLED_I2C_SSD1306_Adafruit.ino",
+		"/home/lab/Arduino/libraries/Adafruit_SSD1306/Adafruit_SSD1306.cpp",
+		"/home/lab/Arduino/lamptrans/lamptrans.ino",
+		"/home/lab/Arduino/ESP8266/prueba1/prueba1.ino",
+		"/home/lab/Arduino/prueba2/prueba2.ino",
+		"/home/lab/Arduino/lamparaio/sketch_sep11a.ino",
+		"/home/lab/Escritorio/arduino-arduinoide.desktop",
+		"/home/lab/Arduino/led_trans/led_trans.ino",
+		"/home/lab/Arduino/libraries/Keypad/src/Key.cpp",
+		"/home/lab/Arduino/libraries/Keypad/src/Keypad.cpp",
+		"/home/lab/Arduino/libraries/Keypad/keywords.txt",
+		"/home/lab/Arduino/libraries/Keypad/src/Key.h",
+		"/home/lab/Descargas/arduino-1.8.6/arduino-linux-setup.sh",
+		"/home/lab/Descargas/arduino-1.8.6/install.sh",
+		"/home/lab/Arduino/libraries/Keypad/src/Keypad.h",
+		"/home/lab/Arduino/libraries/readme.txt",
+		"/home/lab/Descargas/arduino-1.8.6/lib/preferences.txt",
+		"/home/lab/.cache/.fr-y5xN6J/Makefile",
+		"/home/lab/src/edk2/Conf/target.txt",
+		"/home/lab/src/readme.rd",
+		"/home/lab/.cache/.fr-0uFznX/boot/Makefile",
+		"/home/lab/src/edk2/BaseTools/BinWrappers/PosixLike/BPDG",
+		"/home/lab/src/edk2/BaseTools/BinWrappers/PosixLike/UPT",
+		"/home/lab/src/edk2/BaseTools/BinWrappers/PosixLike/Trim",
+		"/home/lab/src/edk2/BaseTools/BinWrappers/PosixLike/TargetTool",
+		"/home/lab/src/edk2/BaseTools/BinWrappers/PosixLike/Rsa2048Sha256Sign",
+		"/home/lab/src/edk2/BaseTools/BinWrappers/PosixLike/Rsa2048Sha256GenerateKeys",
+		"/home/lab/src/edk2/BaseTools/BinWrappers/PosixLike/Pkcs7Sign",
+		"/home/lab/src/edk2/BaseTools/BinWrappers/PosixLike/PatchPcdValue",
+		"/home/lab/src/edk2/BaseTools/BinWrappers/PosixLike/GenPatchPcdTable",
+		"/home/lab/src/edk2/BaseTools/BinWrappers/PosixLike/GenFds",
+		"/home/lab/src/edk2/BaseTools/BinWrappers/PosixLike/GenerateCapsule",
+		"/home/lab/src/edk2/BaseTools/BinWrappers/PosixLike/GenDepex",
+		"/home/lab/src/edk2/BaseTools/BinWrappers/PosixLike/Ecc",
+		"/home/lab/src/edk2/BaseTools/BinWrappers/PosixLike/build",
+		"/home/lab/src/edk2/BaseTools/Makefile",
+		"/home/lab/src/edk2/BaseTools/Source/C/Makefile",
+		"/home/lab/src/edk2/Conf/tools_def.txt",
+		"/home/lab/src/edk2/BaseTools/Source/C/Makefiles/NmakeSubdirs.bat",
+		"/home/lab/src/edk2/BaseTools/Bin/externals.txt",
+		"/home/lab/src/edk2/BuildNotes2.txt"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "WebBlink/WebBlink.ino",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2249,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								461,
+								461
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "esp8266.sublime-project",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 45,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								45,
+								45
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "webBlink2/webBlink2.ino",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2396,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								118,
+								118
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 684.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "coche_sonar/coche_sonar.ino",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2949,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								573,
+								573
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2394.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Scan/Scan.ino",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 771,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								700,
+								700
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "esp8266.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 358.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
